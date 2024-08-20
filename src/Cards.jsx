@@ -1,54 +1,52 @@
 import { LuStethoscope } from "react-icons/lu";
 import './App.css';
+import { GrTask } from "react-icons/gr";
+import { FaPersonRunning } from "react-icons/fa6";
+import { IoIosPhonePortrait } from "react-icons/io";
+import { BsGraphUpArrow } from "react-icons/bs";
 
-export function Cards(){
-    return(
-        <div className='container-diferencial'>
-        <h2>Nosso Diferencial</h2>
-        <div className='container-main-card'>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+export function Cards() {
+  return (
+    <div className='container-diferencial'>
+      <h2>Nosso Diferencial</h2>
+      <div className='container-main-card'>
+        <div className='container-card'>
+          <GrTask style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Avaliações e testes especializados previamente cadastrados.</p>
           </div>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+        </div>
+        <div className='container-card'>
+          <LuStethoscope style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Criação e uso de Protocolos.</p>
           </div>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+        </div>
+        <div className='container-card'>
+          <FaPersonRunning style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Sessões de exercícios remotas para os pacientes.</p>
           </div>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+        </div>
+        <div className='container-card'>
+          <IoIosPhonePortrait style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Execução e registro de sessões de exercícios disponível para mobile.</p>
           </div>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+        </div>
+        <div className='container-card'>
+          <BsGraphUpArrow style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Gráfico para acompanhamento do EVA.</p>
           </div>
-          <div className='container-card'>
-            <LuStethoscope style={{ width: "180px", height: "90px" }} />
-            <div className='container-card-text'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate odit obcaecati error dolor aliquid dignissimos velit veritatis iure.</p>
-              <a>Leia mais</a>
-            </div>
+        </div>
+        <div className='container-card'>
+          <TbReportAnalytics style={{ width: "120px", height: "90px" }} />
+          <div className='container-card-text'>
+            <p>Geração de relatórios.</p>
           </div>
         </div>
       </div>
-    )
+    </div >
+  )
 }

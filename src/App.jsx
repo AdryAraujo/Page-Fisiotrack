@@ -50,12 +50,12 @@ function App() {
         <img src={imgObjetivo} alt="" />
         <div className='content-text'>
           <h2>Nosso Objetivo</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar ultricies turpis in dignissim. Aenean luctus iaculis nulla, at tempor felis luctus ut. Nunc semper neque a consequat placerat. Pellentesque tortor ex, sodales nec est eget, imperdiet accumsan orci. Nam et ipsum interdum, auctor velit fringilla, finibus odio. Maecenas posuere at elit vel efficitur.</p>
+          <p>O FisioTrack corresponde ao sistema WEB e Mobile desenvolvido para auxiliar o fisioterapeuta durante todo o processo de tratamento do paciente. Sua parte WEB cobre toda a parte de gestão das informações necessárias para o fisioterapeuta. Já a parte Mobile, permite que o paciente e o fisioterapeuta visualize e registre os exercícios prescritos em sessões de exercício.</p>
         </div>
       </div>
       {/* Diferenciais */}
-      <Cards/>
-      <SectionEquipe/>
+      <Cards />
+      <SectionEquipe />
     </>
   )
 }

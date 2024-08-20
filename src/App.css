@@ -1,7 +1,4 @@
 .navbar-image{
-  /* background-image: url('../../assets/Alicent-Hightower-e-Rhaenyra-Targaryen-em-A-Casa-do-Dragao.-Foto-Divulgacao-HBO-Max-2.jpg'); */
-  /* background-image: linear-gradient(to bottom, #38A169 40%, #2D8B59 100%),
-  url('./assets/logoTransparent.svg'); */
   background-image: url('./assets/logoTransparent.svg');
   height: 720x;
   background-size: cover;
@@ -45,8 +42,6 @@
 @media (min-width: 1080px){
   .navbar-image{
       background-image: url('./assets/logoTransparent.svg');
-      /* background-image: linear-gradient(to bottom, #38A169 40%, #2D8B59 100%),
-      url('./assets/logoTransparent.svg'); */
       background-size: cover;
   }
 }
@@ -248,7 +243,7 @@ nav img{
   padding: 20px;
   box-sizing: border-box;
   gap: 12px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .container-card-text{
@@ -256,47 +251,12 @@ nav img{
   flex-direction: column;
   justify-content: center;
   color: #ffffff;
-}
-
-.container-card-text p{
-  margin-bottom: 10px;
-}
-
-.container-card-text a{
-  text-decoration: underline;
-  color: rgb(11, 85, 45);
-  font-weight: 700;
-}
-
-/* equipe */
-.container-card-equipe{
-  display: flex;
-  gap: 15px;
-}
-
-.container-text-equipe{
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.container-text-equipe h4{
-  font-size: 24px;
-  color: var(--primary-color);
-}
-
-.container-text-equipe p{
-  font-size: 14px;
-}
-
-.container-main-equipe{
-  display: flex;
-  flex-direction: column;
-}
-
-.container-main-equipe h2{
-  color: var(--primary-color);
-  font-size: 64px;
+  font-size: 20px;
+  width: 260px;
   text-align: center;
-  margin-top: 40px;
+  line-height: 1.5;
 }
+
+/* .container-card-text p{
+  margin-bottom: 10px;
+} */

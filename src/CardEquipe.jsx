@@ -49,9 +49,9 @@ export function CardEquipe(props) {
                 </StyledBadge>
             </div>
             <div className="container-text-equipe">
-                <h4>{props.nome}</h4>
-                <p>{props.funcao}</p>
-                <a href="">{props.email}</a>
+                <h4 className={props.classeTitulo}>{props.nome}</h4>
+                <p className={props.classeTexto}>{props.funcao}</p>
+                <a href="" className={props.classeTexto}>{props.email}</a>
             </div>
         </div>
     )
@@ -62,4 +62,6 @@ CardEquipe.propTypes = {
     nome: PropTypes.string,
     funcao: PropTypes.string,
     imageEquipe: PropTypes.object,
+    classeTexto: PropTypes.string,
+    classeTitulo: PropTypes.string,
 }
