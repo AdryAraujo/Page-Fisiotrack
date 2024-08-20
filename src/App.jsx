@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import './App.css';
-import logo from './assets/LogoFisioTrack_Branco.png';
+import logoVerde from './assets/LogoFisioTrack_Verde.png';
+import logoBranco from './assets/LogoFisioTrack_Branco.png';
 import imgObjetivo from './assets/logoExercices.svg';
 import { Cards } from './Cards';
 import { CardEquipe } from './CardEquipe';
@@ -13,7 +14,7 @@ function App() {
     <>
       <div className="navbar-image">
         <nav className='navbar-options'>
-          <img src={logo} alt="" />
+          <img src={logoVerde} alt="" />
           <button
             className="menu"
             onClick={() => setMenuOpen(!menuOpen)}>
@@ -24,10 +25,13 @@ function App() {
               <a href="/">Início</a>
             </li>
             <li>
-              <a href="/">Diferenciais</a>
+              <a href="/">Objetivo</a>
             </li>
             <li>
-              <a href="/">Nossa Equipe</a>
+              <a href="/">Diferencial</a>
+            </li>
+            <li>
+              <a href="/">Equipe</a>
             </li>
             <li>
               <a href="/">Fale Conosco</a>
@@ -35,11 +39,11 @@ function App() {
           </ul>
         </nav>
         <div className='container-main'>
-          <img src={logo} alt="" />
+          <img src={logoBranco} alt="" />
           <div className='content-tittle'>
             <p>Seja bem vindo(a) ao</p>
             <h1>FisioTrack</h1>
-            <p>(Frase de pitch) Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus pulvinar ultricies turpis in dignissim</p>
+            <p>Sistema de gerenciamento e monitoramento fisioterapêutico prático e acessível</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import { GrTask } from "react-icons/gr";
 import { FaPersonRunning } from "react-icons/fa6";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { BsGraphUpArrow } from "react-icons/bs";
+import { TbReportAnalytics } from "react-icons/tb";
 
 export function Cards() {
   return (

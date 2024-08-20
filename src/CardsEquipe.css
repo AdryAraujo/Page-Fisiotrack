@@ -48,3 +48,10 @@
   .black-text{
     color: #000000;
   }
+
+  @media (max-width:591px) {
+    .container-main-equipe h2{
+        font-size: 52px;
+        flex-wrap: wrap;
+      }
+  }
