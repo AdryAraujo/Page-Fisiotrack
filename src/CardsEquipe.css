@@ -52,7 +52,7 @@
 
   @media (max-width:591px) {
     .container-main-equipe h2{
-        font-size: 52px;
+        font-size: 48px;
         flex-wrap: wrap;
       }
   }

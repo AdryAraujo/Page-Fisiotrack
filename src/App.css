@@ -149,12 +149,6 @@ nav li>a::after {
   transition: all 0.3s;
 }
 
-/* nav li>a:hover::after,
-li>a.active-nav::after {
-  width: 100%;
-  background: var(--primary-color);
-} */
-
 a:hover {
   transform: scale(1.1);
   transition: all 0.3s;
