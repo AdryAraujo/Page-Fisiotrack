@@ -8,7 +8,7 @@ import { TbReportAnalytics } from "react-icons/tb";
 
 export function Cards() {
   return (
-    <div className='container-diferencial'>
+    <div id="diferencial" className='container-diferencial'>
       <h2>Nosso Diferencial</h2>
       <div className='container-main-card'>
         <div className='container-card'>

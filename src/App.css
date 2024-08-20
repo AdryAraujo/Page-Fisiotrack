@@ -90,6 +90,12 @@
   .content-text h2 {
     font-size: 52px;
   }
+
+  /*footer*/
+  .container-footer{
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /* objetivo */
@@ -143,11 +149,11 @@ nav li>a::after {
   transition: all 0.3s;
 }
 
-nav li>a:hover::after,
+/* nav li>a:hover::after,
 li>a.active-nav::after {
   width: 100%;
   background: var(--primary-color);
-}
+} */
 
 a:hover {
   transform: scale(1.1);

@@ -23,16 +23,16 @@ function App() {
           </button>
           <ul className={menuOpen ? "open" : ""}>
             <li>
-              <a href="/">Início</a>
+              <a href="#teste">Início</a>
             </li>
             <li>
-              <a href="/">Objetivo</a>
+              <a href="#objetivo">Objetivo</a>
             </li>
             <li>
-              <a href="/">Diferencial</a>
+              <a href="#diferencial">Diferencial</a>
             </li>
             <li>
-              <a href="/">Equipe</a>
+              <a href="#equipe">Equipe</a>
             </li>
             <li>
               <a href="/">Fale Conosco</a>
@@ -51,7 +51,7 @@ function App() {
       <div>
       </div>
       {/* objetivos */}
-      <div className='container-objetivo'>
+      <div id="objetivo" className='container-objetivo'>
         <img src={imgObjetivo} alt="" />
         <div className='content-text'>
           <h2>Nosso Objetivo</h2>
@@ -59,7 +59,7 @@ function App() {
         </div>
       </div>
       {/* Diferenciais */}
-      <Cards />
+      <Cards/>
       <SectionEquipe />
       <Footer/>
     </>
