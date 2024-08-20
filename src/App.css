@@ -295,3 +295,17 @@ nav img {
   text-align: center;
   line-height: 1.5;
 }
+
+/*footer*/
+
+.container-footer{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  padding: 40px;
+}
+
+.logo-ufs{
+  width: 300px;
+  height: 120px;
+}

@@ -29,6 +29,7 @@
     font-size: 64px;
     text-align: center;
     margin-top: 40px;
+    text-shadow: var(--text-shadow-01);
   }
   
   .verde{

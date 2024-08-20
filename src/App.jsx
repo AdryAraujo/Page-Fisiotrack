@@ -7,6 +7,7 @@ import imgObjetivo from './assets/logoExercices.svg';
 import { Cards } from './Cards';
 import { CardEquipe } from './CardEquipe';
 import { SectionEquipe } from './SectionEquipe';
+import { Footer } from './Footer';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -60,6 +61,7 @@ function App() {
       {/* Diferenciais */}
       <Cards />
       <SectionEquipe />
+      <Footer/>
     </>
   )
 }
