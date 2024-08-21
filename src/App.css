@@ -26,6 +26,20 @@
 }
 
 
+.creditos{
+  color: white;
+  opacity: 50%;
+  text-align: right;
+  padding: 5px;
+}
+
+.creditos a{
+  color: white;
+}
+.creditos a:visited{
+  color: white;
+}
+
 /* diferenciais */
 .container-diferencial {
   display: flex;

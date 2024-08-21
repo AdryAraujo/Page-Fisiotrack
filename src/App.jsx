@@ -21,6 +21,8 @@ function App() {
       <SectionEquipe />
 
       <Footer/>
+
+      <p className="creditos">Iustrações por <a href='https://undraw.co' target='_blank'>undraw.co</a> e <a href='https://storyset.com' target='_blank'>storyset.com</a></p>
     </div>
   )
 }
