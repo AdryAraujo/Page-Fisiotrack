@@ -1,0 +1,32 @@
+.section-objetivo {
+    display: flex;
+    justify-content: center;
+    margin-block: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.section-objetivo img {
+    width: min(50%, 500px);
+    filter: drop-shadow(4px 4px 4px rgba(0,0,0, 0.15));
+}
+
+.section-objetivo > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    gap: 20px;
+    align-items: flex-start;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+.section-objetivo h2 {
+    color: var(--cor-01);
+    font-size: 64px;
+}
+
+.section-objetivo span {
+    font-weight: bold;
+}

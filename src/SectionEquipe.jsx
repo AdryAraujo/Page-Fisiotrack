@@ -1,10 +1,10 @@
-import { CardEquipe } from "./CardEquipe";
+import CardEquipe from "./CardEquipe";
 import './App.css';
 import './CardsEquipe.css';
 
-export function SectionEquipe() {
+export default function SectionEquipe() {
     return (
-        <>
+        <div className="section">
             <div className='container-main-equipe'>
                 <h2 id="equipe">Equipe Desenvolvimento</h2>
                 <div className="container-main-card ">
@@ -32,6 +32,6 @@ export function SectionEquipe() {
                     <CardEquipe nome={"Ricardo"} funcao={"Orientador"} email={"ricardo@dcomp.ufs.br"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

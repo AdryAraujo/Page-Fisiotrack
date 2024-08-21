@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 import PropTypes from 'prop-types'
 
 
-export function CardEquipe(props) {
+export default function CardEquipe(props) {
     const StyledBadge = styled(Badge)(({ theme }) => ({
         '& .MuiBadge-badge': {
             backgroundColor: '#44b700',
@@ -37,6 +37,8 @@ export function CardEquipe(props) {
             },
         },
     }));
+
+    
     return (
         <div className="container-card-equipe">
             <div>
