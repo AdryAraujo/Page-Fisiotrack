@@ -1,6 +1,7 @@
+import Navbar from './Navbar';
 import SectionBemVindo from './SectionBemVindo';
 import SectionObjetivo from './SectionObjetivo'
-import Cards from './Cards';
+import SectionDiferencial from './SectionDiferencial';
 import SectionEquipe from './SectionEquipe';
 import Footer from './Footer';
 import './App.css';
@@ -12,11 +13,13 @@ function App() {
     <div className='app'>
       <div className='cover-art'></div>
       
+      <Navbar />
+
       <SectionBemVindo />
       
       <SectionObjetivo />
       
-      <Cards/>
+      <SectionDiferencial/>
 
       <SectionEquipe />
 

@@ -40,58 +40,8 @@
   color: white;
 }
 
-/* diferenciais */
-.container-diferencial {
-  display: flex;
-  flex-direction: column;
-  background-color: transparent;
-  color: #ffffff;
-}
-
-.container-diferencial h2 {
-  font-size: 64px;
-  text-align: center;
-  margin-top: 40px;
-}
-
-.container-main-card {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  justify-content: center;
-  padding: 40px;
-  box-sizing: border-box;
-}
-
-.container-card {
-  width: 400px;
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  gap: 12px;
-  text-shadow: var(--text-shadow-01);
-  background-color: rgba(255,255,255, 0.1);
-  backdrop-filter: blur(5px);
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255, 0.5);
-  border-left: none;
-  border-bottom: none;
-}
-
-.container-card svg {
-  filter: drop-shadow(4px 4px 4px rgba(0,0,0, 0.15));
-}
-
-.container-card-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 20px;
-  width: 260px;
-  text-align: center;
-  line-height: 1.5;
+@media (max-width: 500px) {
+  .section h2 {
+    font-size: 0.75em;
+  }
 }

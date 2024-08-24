@@ -1,13 +1,10 @@
-import Navbar from './Navbar';
 import logoBranco from './assets/LogoFisioTrack_Branco.png';
-
 import './SectionBemVindo.css'
 
 
 function SectionBemVindo(){
     return (
         <div className="section-bem-vindo">
-            <Navbar />
 
             <img src={logoBranco} alt="" />
             <div className='section-bem-vindo__content-tittle'>

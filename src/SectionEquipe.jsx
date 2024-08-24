@@ -1,12 +1,12 @@
 import CardEquipe from "./CardEquipe";
-import './App.css';
-import './CardsEquipe.css';
+import './SectionEquipe.css'
+
 
 export default function SectionEquipe() {
     return (
-        <div className="section">
-            <div className='container-main-equipe'>
-                <h2 id="equipe">Equipe Desenvolvimento</h2>
+        <>
+            <div id="equipe" className='section section-equipe bg-white'>
+                <h2>Equipe de Desenvolvimento</h2>
                 <div className="container-main-card ">
                     <CardEquipe nome={"Adryelle Araujo"} funcao={"Desenvolvedor Front-end"} email={"adryelle.comp13@gmail.com"} classeTexto={"black-text"} />
                     <CardEquipe nome={"Arthur Franklin"} funcao={"Desenvolvedor Back-end"} email={"arthuroliveira.s@outlook.com.br"} classeTexto={"black-text"}/>
@@ -17,13 +17,17 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Paulina Kayse"} funcao={"Desenvolvedor Back-end"} email={"kaspaulina@hotmail.com"} classeTexto={"black-text"}/>
                 </div>
             </div>
-            <div className='container-main-equipe verde'>
+
+            <div className='section section-equipe bg-transp'>
                 <h2>Especialistas de Domínio</h2>
                 <div className="container-main-card">
                     <CardEquipe nome={"Letícia Vitória"} funcao={"Product Owner"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
                     <CardEquipe nome={"Suziany Caduda"} funcao={"Product Owner"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
                     <CardEquipe nome={"Walderi"} funcao={"Product Owner"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
                 </div>
+            </div>
+
+            <div className='section section-equipe bg-white'>
                 <h2>Consultoria Técnica</h2>
                 <div className="container-main-card">
                     <CardEquipe nome={"Debora"} funcao={"Orientadora"} email={"deboramcn@dcomp.ufs.br"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
@@ -32,6 +36,6 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Ricardo"} funcao={"Orientador"} email={"ricardo@dcomp.ufs.br"} classeTexto={"verde-text"} classeTitulo={"verde-text"}/>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

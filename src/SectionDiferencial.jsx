@@ -4,10 +4,10 @@ import { FaPersonRunning } from "react-icons/fa6";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { BsGraphUpArrow } from "react-icons/bs";
 import { TbReportAnalytics } from "react-icons/tb";
-import './App.css';
+import './SectionDiferencial.css'
 
 
-export default function Cards() {
+export default function SectionDiferencial() {
   return (
     <div id="diferencial" className='section container-diferencial'>
       <h2>Nosso Diferencial</h2>

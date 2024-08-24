@@ -1,10 +1,7 @@
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import logoVerde from './assets/LogoFisioTrack_Verde.png';
-import './App.css';
 import './Navbar.css'
-
-
 
 
 function Navbar(){

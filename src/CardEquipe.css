@@ -1,0 +1,26 @@
+.container-card-equipe{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+  
+.container-text-equipe{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+  
+.container-text-equipe h4{
+    font-size: 24px;
+}
+
+.container-text-equipe p{
+    font-size: 14px;
+}
+
+@media (max-width:591px) {
+    .container-main-equipe h2{
+        font-size: 48px;
+        flex-wrap: wrap;
+    }
+}

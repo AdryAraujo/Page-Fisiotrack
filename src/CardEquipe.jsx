@@ -1,9 +1,8 @@
-import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Badge from '@mui/material/Badge';
 import Avatar from '@mui/material/Avatar';
-import Stack from '@mui/material/Stack';
 import PropTypes from 'prop-types'
+import './CardEquipe.css'
 
 
 export default function CardEquipe(props) {
@@ -53,7 +52,6 @@ export default function CardEquipe(props) {
             <div className="container-text-equipe">
                 <h4 className={props.classeTitulo}>{props.nome}</h4>
                 <p className={props.classeTexto}>{props.funcao}</p>
-                <a href="" className={props.classeTexto}>{props.email}</a>
             </div>
         </div>
     )
