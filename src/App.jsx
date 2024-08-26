@@ -5,6 +5,7 @@ import SectionDiferencial from './SectionDiferencial';
 import SectionEquipe from './SectionEquipe';
 import Footer from './Footer';
 import './App.css';
+import { Caroussel } from './Caroussel';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <SectionBemVindo />
       
       <SectionObjetivo />
+      <Caroussel/>
       
       <SectionDiferencial/>
 
