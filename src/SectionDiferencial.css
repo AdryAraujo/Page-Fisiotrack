@@ -1,7 +1,7 @@
 .container-diferencial {
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+    background-color: transparent !important;
     color: #ffffff;
 }
   
