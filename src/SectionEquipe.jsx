@@ -31,7 +31,7 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Paulina Santos"} funcao={"Desenvolvedor Back-end"} email={"kaspaulina@hotmail.com"} classeTexto={"black-text"} imageEquipe={paulina} />
                 </div>
                 <div className="section-equipe">
-                    <h4 style={{ textAlign: "center" }}>Entre em contato: <a style={{ color: "black" }} href="fisiotrack@dcomp.ufs.br">fisiotrack@dcomp.ufs.br</a></h4>
+                    <h3 style={{ textAlign: "center", color: "var(--cor-01)" }}>Entre em contato: <a style={{ color: "black" }} href="fisiotrack@dcomp.ufs.br">fisiotrack@dcomp.ufs.br</a></h3>
 
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default function SectionEquipe() {
                 <h2>Especialistas de Domínio</h2>
                 <div className="container-main-card">
                     <CardEquipe nome={"Letícia Carvalho"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={leticia} />
-                    <CardEquipe nome={"Mr. Suziany Caduda"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={suziany} />
+                    <CardEquipe nome={"Ma. Suziany Caduda"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={suziany} />
                     <CardEquipe nome={"Dr. Walderi Monteiro"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={walderi} />
                 </div>
             </div>
