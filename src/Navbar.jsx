@@ -23,7 +23,7 @@ function Navbar(){
                     <a href="#objetivo">Objetivo</a>
                     <a href="#diferencial">Diferencial</a>
                     <a href="#equipe">Equipe</a>
-                    {/* <a href="/">Fale Conosco</a> */}
+                    <a href="#carousel">Sistema</a>
                     <button className='navbar-links-desktop__bt-visualizar' onClick={onClickButton}>Visualizar Projeto</button>
                 </div>
 
@@ -43,7 +43,7 @@ function Navbar(){
                         <a href="#objetivo">Objetivo</a>
                         <a href="#diferencial">Diferencial</a>
                         <a href="#equipe">Equipe</a>
-                        {/* <a href="/">Fale Conosco</a> */}
+                        <a href="#carousel">Sistema</a>
                         <button className='navbar-links-mobile__bt-visualizar' onClick={onClickButton}>
                             <p>Visualizar Projeto</p>
                         </button>

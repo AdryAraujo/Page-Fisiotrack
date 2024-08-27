@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation, Pagination } from "swiper";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -9,12 +8,12 @@ import computador from './assets/computerLg.png';
 import todos from './assets/todosLg.png';
 import "./Carousel.css";
 
-export function Caroussel() {
+export function Carousel() {
 
     const slides = [todos, celular, computador]
 
     return (
-        <div className="container-carousel">
+        <div id="carousel" className="container-carousel">
             <Swiper
                 modules={[Navigation, Pagination]}
                 navigation
