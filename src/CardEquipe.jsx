@@ -61,7 +61,6 @@ CardEquipe.propTypes = {
     imageEquipe: PropTypes.string,
     nome: PropTypes.string,
     funcao: PropTypes.string,
-    imageEquipe: PropTypes.object,
     classeTexto: PropTypes.string,
     classeTitulo: PropTypes.string,
 }

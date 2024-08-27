@@ -10,24 +10,3 @@
 .section-equipe.bg-transp{
     background-color: transparent;
 }
-
-.section-equipe h2{
-    font-size: 3.5em;
-    text-align: center;
-    margin-top: 40px;
-    text-shadow: var(--text-shadow-01);
-}
-
-.section-equipe.bg-white h2, .section-equipe.bg-white h4{
-    color: var(--cor-01);
-}
-
-.section-equipe.bg-transp h2, .section-equipe.bg-transp h4{
-    color: white;
-}
-
-@media (max-width: 800px){
-    .section-equipe h2{
-        word-break: break-all;
-    }
-}

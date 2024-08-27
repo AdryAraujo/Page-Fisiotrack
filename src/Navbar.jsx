@@ -14,25 +14,44 @@ function Navbar(){
 
 
     return(
-        <nav className='navbar'>
-            <img src={logoVerde} alt="" />
+        <>
+            <nav className='navbar'>
+                <img src={logoVerde} alt="" />
 
-            <div className='navbar__links'>
-                {/* <a href="#teste">Início</a> */}
-                <a href="#objetivo">Objetivo</a>
-                <a href="#diferencial">Diferencial</a>
-                <a href="#equipe">Equipe</a>
-                <a href="/">Fale Conosco</a>
-                <button className='navbar-links__bt-visualizar' onClick={onClickButton}>Visualizar Projeto</button>
-            </div>
+                <div className="navbar__links-desktop">
+                    {/* <a href="#teste">Início</a> */}
+                    <a href="#objetivo">Objetivo</a>
+                    <a href="#diferencial">Diferencial</a>
+                    <a href="#equipe">Equipe</a>
+                    {/* <a href="/">Fale Conosco</a> */}
+                    <button className='navbar-links-desktop__bt-visualizar' onClick={onClickButton}>Visualizar Projeto</button>
+                </div>
 
-            <button
-                className="navbar__button-menu"
-                onClick={() => setMenuOpen(!menuOpen)}
-            >
-                <FaBars className='menu-icon' />
-            </button>
-        </nav>
+                <button
+                    className="navbar__button-menu"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    <FaBars className='menu-icon' />
+                </button>
+            </nav>
+
+            {
+                menuOpen &&
+                <div className="navbar__links-mobile">
+                    <div className='navbar-links-mobile__links'>
+                        {/* <a href="#teste">Início</a> */}
+                        <a href="#objetivo">Objetivo</a>
+                        <a href="#diferencial">Diferencial</a>
+                        <a href="#equipe">Equipe</a>
+                        {/* <a href="/">Fale Conosco</a> */}
+                        <button className='navbar-links-mobile__bt-visualizar' onClick={onClickButton}>
+                            <p>Visualizar Projeto</p>
+                        </button>
+                    </div>
+                    <div className="navbar-links-mobile__background" onClick={()=>{setMenuOpen(false)}}></div>
+                </div>
+            }
+        </>
     );
 }
 
