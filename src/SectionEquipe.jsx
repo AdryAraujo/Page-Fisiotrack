@@ -31,7 +31,7 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Paulina Santos"} funcao={"Desenvolvedor Back-end"} email={"kaspaulina@hotmail.com"} classeTexto={"black-text"} imageEquipe={paulina} />
                 </div>
                 <div className="section-equipe">
-                    <h3 style={{ textAlign: "center", color: "var(--cor-01)" }}>Entre em contato: <a style={{ color: "black" }} href="fisiotrack@dcomp.ufs.br">fisiotrack@dcomp.ufs.br</a></h3>
+                    <h3 style={{ textAlign: "center", color: "var(--cor-01)", fontSize: "29px" }}>Entre em contato: <a style={{ color: "black" }} href="fisiotrack@dcomp.ufs.br">fisiotrack@dcomp.ufs.br</a></h3>
 
                 </div>
             </div>
