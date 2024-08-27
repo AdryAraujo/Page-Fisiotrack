@@ -1,0 +1,12 @@
+.section-equipe{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-equipe.bg-white{
+    background-color: white;
+}
+
+.section-equipe.bg-transp{
+    background-color: transparent;
+}

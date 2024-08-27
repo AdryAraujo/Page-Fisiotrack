@@ -1,13 +1,13 @@
 import logoUfs from "./assets/ufs_horizontal_positiva.png"
-import logoDcomp from "./assets/image.png";
-import './App.css';
+import logoDcomp from "./assets/logo_dcomp.svg"
+import './Footer.css'
 
 
-export function Footer(){
+export default function Footer(){
     return(
-        <footer className="container-footer">
-            <img className="logo-ufs" src={logoUfs} alt="" />
-            <img src={logoDcomp} alt="" />
+        <footer className="footer">
+            <img className="footer__logo-ufs" src={logoUfs} alt="Logo da Ufs" />
+            <img className="footer__logo-dcomp" src={logoDcomp} alt="Logo do Dcomp" />
         </footer>
     )
 }

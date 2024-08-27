@@ -1,0 +1,134 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 99;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.15);
+}
+
+.navbar img{
+    width: 60px;
+}
+
+.navbar__links-desktop{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar__links-desktop a{
+    text-decoration: none;
+    color: var(--cor-01);
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.navbar__links-desktop a:hover{
+    text-decoration: underline;
+}
+
+.navbar-links-desktop__bt-visualizar{
+    padding: 7px 20px;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: white;
+    background-image: var(--gradiente-01);
+    border-radius: 4px;
+    transition: filter 0.1s;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+}
+.navbar-links-desktop__bt-visualizar:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    filter: brightness(110%);
+}
+
+.navbar__button-menu{
+    display: none;
+    text-shadow: none;
+    filter: none;
+}
+
+.navbar__button-menu svg{
+    font-size: 1.5em;
+    color: var(--cor-01);
+    background-color: white;
+    padding: 5px; /* pra n ficar muito colado na lateral direita */
+}
+
+.navbar__links-mobile{
+    z-index: 98; /* 99 eh a propria barra */
+    position: fixed;
+    top: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0, 0.5);
+    animation-name: FadeIn;
+    animation-duration: 0.15s;
+}
+
+.navbar-links-mobile__links{
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.15);
+    animation-name: FadeInLeft;
+    animation-duration: 0.25s;
+}
+
+.navbar-links-mobile__links > *{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0,0,0, 0.1);
+}
+
+.navbar-links-mobile__bt-visualizar{
+    font-size: 1.0em;
+    font-family: Inter, sans-serif;
+    background-color: transparent;
+    padding: 20px 20px;
+    color: white;
+}
+
+.navbar-links-mobile__bt-visualizar:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    filter: brightness(110%);
+}
+
+.navbar-links-mobile__bt-visualizar > p{
+    padding: 10px;
+    background-image: var(--gradiente-01);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0,0,0, 0.2);
+}
+
+.navbar-links-mobile__background{ /* div para fechar a navbar com toque fora dela */
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+    .navbar__links-desktop{
+        display: none;
+    }
+
+    .navbar__button-menu{
+        display: flex;
+    }
+
+    .navbar img{
+        width: 40px;
+    }
+}
