@@ -1,5 +1,5 @@
 import logoUfs from "./assets/ufs_horizontal_positiva.png"
-import logoDcomp from "./assets/image.png"
+import logoDcomp from "./assets/logo_dcomp.svg"
 import './Footer.css'
 
 
