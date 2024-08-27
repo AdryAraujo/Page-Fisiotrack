@@ -17,6 +17,13 @@ import debora from './assets/debora.jpg';
 
 
 export default function SectionEquipe() {
+
+    function handleClickEmail(){
+        navigator.clipboard.writeText("fisiotrack@dcomp.ufs.br");
+        alert("Email copiado para a área de transferência!")
+    }
+
+
     return (
         <>
             <div id="equipe" className='section section-equipe bg-white'>
@@ -30,9 +37,10 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Luan Gomes"} funcao={"Desenvolvedor Back-end"} email={"Kyrtinem@gmail.com"} classeTexto={"black-text"} imageEquipe={luan} />
                     <CardEquipe nome={"Paulina Santos"} funcao={"Desenvolvedor Back-end"} email={"kaspaulina@hotmail.com"} classeTexto={"black-text"} imageEquipe={paulina} />
                 </div>
-                <div className="section-equipe">
-                    <h3 style={{ textAlign: "center", color: "var(--cor-01)", fontSize: "29px" }}>Entre em contato: <a style={{ color: "black" }} href="">fisiotrack@dcomp.ufs.br</a></h3>
 
+                <div className="container-entre-contato">
+                    <p>Entre em contato:</p>
+                    <h3 onClick={handleClickEmail} style={{ textAlign: "center", color: "var(--cor-01)", fontSize: "29px", wordBreak: "break-all" }}>fisiotrack@dcomp.ufs.br</h3>
                 </div>
             </div>
 
