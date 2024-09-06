@@ -15,7 +15,7 @@ export function Carousel() {
     const slides = [
         <div className="teste-carrossel" key="slide-1">
             <img src={testefer} alt="Imagem do Slide 1" />
-            <div>
+            <div className="carrossel-text">
                 <h2>Débora é uma maluca chata</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
                     officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
