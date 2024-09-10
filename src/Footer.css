@@ -5,6 +5,8 @@
     align-items: center;
     gap: 30px;
     padding: 40px 20px;
+    color: white;
+    font-size: 20px;
 }
 
 .footer__logo-ufs{
@@ -13,4 +15,8 @@
 
 .footer__logo-dcomp{
     width: min(300px, 90%);
+}
+
+.footer p{
+    background-color: #007C46;
 }

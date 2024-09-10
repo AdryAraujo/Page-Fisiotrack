@@ -30,10 +30,10 @@ export default function SectionEquipe() {
                     <CardEquipe nome={"Luan Gomes"} funcao={"Desenvolvedor Back-end"} email={"Kyrtinem@gmail.com"} classeTexto={"black-text"} imageEquipe={luan} />
                     <CardEquipe nome={"Paulina Santos"} funcao={"Desenvolvedor Back-end"} email={"kaspaulina@hotmail.com"} classeTexto={"black-text"} imageEquipe={paulina} />
                 </div>
-                <div className="section-equipe">
+                {/* <div className="section-equipe">
                     <h4 style={{ textAlign: "center" }}>Entre em contato: <a style={{ color: "black" }} href="fisiotrack@dcomp.ufs.br">fisiotrack@dcomp.ufs.br</a></h4>
 
-                </div>
+                </div> */}
             </div>
 
             <div className='section section-equipe bg-transp'>
