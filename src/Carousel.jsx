@@ -21,40 +21,35 @@ export function Carousel() {
             <img src={todos} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
                 <h2>Disponível em todos os dispositivos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
-                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+                <p>Site web que se adequa a todos os dispositivos, de celular a computador, nunca foi tão fácil gerenciar seus pacientes</p>
             </div>
         </div>,
         <div className="teste-carrossel" key="slide-2">
             <img src={grafico} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
                 <h2>Gráficos de evolução do paciente</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
-                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+                <p>Usar papel nunca mais, um novo jeito de monitorar a evolução dos pacientes, a partir de gráficos da Escala Visual Analógica e testes específicos!</p>
             </div>
         </div>,
         <div className="teste-carrossel" key="slide-3">
             <img src={sessoes} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
                 <h2>Sessões de exercícios remotas</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
-                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+                <p>Sessões de exercícios remotas personalizadas para cada paciente, com acompanhamento do fisioterapeuta!</p>
             </div>
         </div>,
         <div className="teste-carrossel" key="slide-3">
             <img src={anamnese} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
-                <h2>Sessões de exercícios remotas</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
-                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+                <h2>Anamnese digital</h2>
+                <p>Cadastro simplificado da anamnese do paciente e histórico médico!</p>
             </div>
         </div>,
         <div className="teste-carrossel" key="slide-3">
             <img src={protocolo} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
-                <h2>Sessões de exercícios remotas</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
-                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+                <h2>Utilização de protocolos</h2>
+                <p>Mecanismo para criação de protocolos específicos para facilitar o tratamento dos pacientes!</p>
             </div>
         </div>
     ];
