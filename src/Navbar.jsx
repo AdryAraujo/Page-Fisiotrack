@@ -21,10 +21,11 @@ function Navbar(){
                 <div className="navbar__links-desktop">
                     {/* <a href="#teste">Início</a> */}
                     <a href="#objetivo">Objetivo</a>
+                    <a href="#carousel">Sistema</a>
+                    <a href="#pitch">Pitch</a>
                     <a href="#diferencial">Diferencial</a>
                     <a href="#equipe">Equipe</a>
-                    <a href="#carousel">Sistema</a>
-                    <button className='navbar-links-desktop__bt-visualizar' onClick={onClickButton}>Visualizar Projeto</button>
+                    {/* <button className='navbar-links-desktop__bt-visualizar' onClick={onClickButton}>Visualizar Projeto</button> */}
                 </div>
 
                 <button
@@ -41,12 +42,13 @@ function Navbar(){
                     <div className='navbar-links-mobile__links'>
                         {/* <a href="#teste">Início</a> */}
                         <a href="#objetivo">Objetivo</a>
+                        <a href="#carousel">Sistema</a>
+                        <a href="#pitch">Pitch</a>
                         <a href="#diferencial">Diferencial</a>
                         <a href="#equipe">Equipe</a>
-                        <a href="#carousel">Sistema</a>
-                        <button className='navbar-links-mobile__bt-visualizar' onClick={onClickButton}>
+                        {/* <button className='navbar-links-mobile__bt-visualizar' onClick={onClickButton}>
                             <p>Visualizar Projeto</p>
-                        </button>
+                        </button> */}
                     </div>
                     <div className="navbar-links-mobile__background" onClick={()=>{setMenuOpen(false)}}></div>
                 </div>

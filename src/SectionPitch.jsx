@@ -4,7 +4,7 @@ import './SectionPitch.css'
 
 export function SectionPitch() {
     return (
-        <div className="section-pitch">
+        <div id="pitch" className="section-pitch">
             <h2>Pitch</h2>
             <ReactPlayer
                 url='https://youtu.be/CJp7sQTZAwc'
