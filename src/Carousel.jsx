@@ -3,12 +3,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from "swiper/modules";
-// import celular from './assets/cellLg.png';
+// import sessoes from './assets/cellLg.png';
 // import computador from './assets/computerLg.png';
 // import todos from './assets/todosLg.png';
-import celular from "./assets/fer.png";
+import sessoes from "./assets/sessoes.png";
 import todos from "./assets/todosDisp.png";
 import grafico from "./assets/grafico.png";
+import anamnese from "./assets/anamnese.png"
+import protocolo from "./assets/protocolo.png"
 import "./Carousel.css";
 
 export function Carousel() {
@@ -32,7 +34,23 @@ export function Carousel() {
             </div>
         </div>,
         <div className="teste-carrossel" key="slide-3">
-            <img src={celular} alt="Imagem do Slide 1" />
+            <img src={sessoes} alt="Imagem do Slide 1" />
+            <div className="carrossel-text">
+                <h2>Sessões de exercícios remotas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
+                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+            </div>
+        </div>,
+        <div className="teste-carrossel" key="slide-3">
+            <img src={anamnese} alt="Imagem do Slide 1" />
+            <div className="carrossel-text">
+                <h2>Sessões de exercícios remotas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
+                    officia impedit earum, debitis, illum assumenda commodi! Culpa dicta iste saepe est natus suscipit amet totam!</p>
+            </div>
+        </div>,
+        <div className="teste-carrossel" key="slide-3">
+            <img src={protocolo} alt="Imagem do Slide 1" />
             <div className="carrossel-text">
                 <h2>Sessões de exercícios remotas</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
@@ -63,7 +81,7 @@ export function Carousel() {
                     {slides.map(slide => (
                     <SwiperSlide className="imagem">
                         <div className="teste-carrossel">
-                            <img src={celular} alt={slides} />
+                            <img src={sessoes} alt={slides} />
                             <div>
                                 <h2>DEbora é uma maluca chata</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
@@ -71,9 +89,9 @@ export function Carousel() {
                             </div>
                         </div>
                         <div className="teste-carrossel">
-                            <img src={celular} alt={slides} />
-                            <img src={celular} alt={slides} />
-                            <img src={celular} alt={slides} />
+                            <img src={sessoes} alt={slides} />
+                            <img src={sessoes} alt={slides} />
+                            <img src={sessoes} alt={slides} />
                             <div>
                                 <h2>DEbora é uma maluca chata</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eaque repellendus molestiae deserunt amet
