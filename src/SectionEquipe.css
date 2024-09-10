@@ -10,3 +10,18 @@
 .section-equipe.bg-transp{
     background-color: transparent;
 }
+
+.container-entre-contato{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-entre-contato p{
+    font-size: 1.1em;
+}
+
+.container-entre-contato h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -17,6 +17,13 @@ import debora from './assets/debora.jpg';
 
 
 export default function SectionEquipe() {
+
+    function handleClickEmail(){
+        navigator.clipboard.writeText("fisiotrack@dcomp.ufs.br");
+        alert("Email copiado para a área de transferência!")
+    }
+
+
     return (
         <>
             <div id="equipe" className='section section-equipe bg-white'>
@@ -40,7 +47,7 @@ export default function SectionEquipe() {
                 <h2>Especialistas de Domínio</h2>
                 <div className="container-main-card">
                     <CardEquipe nome={"Letícia Carvalho"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={leticia} />
-                    <CardEquipe nome={"Mr. Suziany Caduda"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={suziany} />
+                    <CardEquipe nome={"Ma. Suziany Caduda"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={suziany} />
                     <CardEquipe nome={"Dr. Walderi Monteiro"} email={"adryelle.comp13@gmail.com"} classeTexto={"verde-text"} classeTitulo={"verde-text"} imageEquipe={walderi} />
                 </div>
             </div>

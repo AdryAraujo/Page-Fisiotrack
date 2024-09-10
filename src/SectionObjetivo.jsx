@@ -4,7 +4,7 @@ import imgObjetivo from './assets/logoExercices.svg';
 import "./SectionObjetivo.css"
 
 
-function SectionObjetivo(){
+function SectionObjetivo() {
     return (
         <>
             {/* <img src={wavesTop} alt="imagem de transicao" className='waves' /> */}
@@ -14,11 +14,12 @@ function SectionObjetivo(){
                 <div className='content-text'>
                     <h2>Nosso Objetivo</h2>
                     <p>
-                        O FisioTrack corresponde ao sistema WEB e Mobile desenvolvido 
-                        para <span>auxiliar o fisioterapeuta durante todo o processo de tratamento do paciente</span>. 
-                        Sua parte WEB cobre toda a parte de gestão das informações necessárias para o fisioterapeuta. 
-                        Já a parte Mobile, permite que o paciente e o fisioterapeuta visualize e registre os 
-                        exercícios prescritos em sessões de exercício.
+                        O FisioTrack corresponde ao sistema WEB e Mobile desenvolvido
+                        para <span>auxiliar o fisioterapeuta durante todo o processo de tratamento do paciente</span>.
+                        Seu módulo WEB abrange toda a parte de gestão das informações necessárias para o fisioterapeuta,
+                        que corresponde ao cadastro do paciente, tratamento, sessão e entre outras. Já o módulo Mobile
+                        permite que o paciente e o fisioterapeuta visualize e registre os exercícios
+                        prescritos para a sessão
                     </p>
                 </div>
             </div>
